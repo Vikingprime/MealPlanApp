@@ -4,6 +4,24 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id= "@+id/sellButton"
+            android:text="Sell"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id= "@+id/buyButton"
+            android:text="Buy"/>
+
+    </LinearLayout>
     <FrameLayout
         android:background="@drawable/customborder"
         android:id="@+id/fragment_container"
